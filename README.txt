@@ -1,8 +1,8 @@
 
 dinoEcoPropelPager
-�y���ꍇ�����邩���A�ȃy�[�W���B
+軽い場合もあるかも、なページャ。
 
-Symfony1.0�p
+Symfony1.0用
 
-SELECT * �͏d���̂ŁASELECT id �ɂ����邽�߂̃y�[�W���[�ł��B
-���̃e�[�u���̂P���R�[�h������̃f�[�^�ʁi�J�������������Ȃǁj�̏ꍇ�ɂ͌��ʂ�����܂��B
+SELECT * は重いので、SELECT id にかえるためのページャーです。
+そのテーブルの１レコードあたりのデータ量（カラム数が多いなど）の場合には効果があります。
